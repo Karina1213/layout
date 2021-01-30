@@ -9,10 +9,10 @@ export const MainCard = (props) => {
     return (
         <div className='main-card'>
             <Container>
-                <Typography mixin='slide__content' xxlFontSize primary> {props.title}</Typography>
+                <Typography mixin='main-card__content' xxlFontSize primary> {props.title}</Typography>
             </Container>
 
-            <img alt={props.title} className='slide__image' src={props.image}/>
+            <img alt={props.title} className='main-card__image' src={props.image}/>
         </div>
     );
 }
