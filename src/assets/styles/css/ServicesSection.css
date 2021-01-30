@@ -1,0 +1,13 @@
+.services-section {
+  font-family: "Raleway", sans-serif; }
+  .services-section__title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px; }
+  .services-section__row {
+    margin-left: -10px;
+    margin-right: -10px;
+    box-sizing: border-box;
+    margin-bottom: 40px; }
+  .services-section__button {
+    margin-bottom: 30px; }

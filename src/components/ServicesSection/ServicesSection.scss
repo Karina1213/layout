@@ -1,0 +1,22 @@
+@import '../../assets/styles/scss/slyles.scss';
+
+.services-section {
+  font-family: "Raleway", sans-serif;
+
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  &__row {
+    margin-left: -10px;
+    margin-right: -10px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+  }
+
+  &__button{
+    margin-bottom: 30px;
+  }
+}
