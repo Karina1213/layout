@@ -1,4 +1,4 @@
-@import '../abstracts/variables';
+@import '../../assets/styles/scss/abstracts/variables.scss';
 
 .primary {
   color: $white;
@@ -22,6 +22,10 @@
 
 .lg-font-size {
   font-size: $lg-font-size;
+}
+
+.xl-font-size {
+  font-size: $xl-font-size;
 }
 
 .xxl-font-size {

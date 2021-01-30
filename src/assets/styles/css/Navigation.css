@@ -1,0 +1,8 @@
+.navigation__link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  padding: 65px 30px 7px 30px;
+  margin-bottom: 13px;
+  border-right: 1px solid rgba(62, 62, 62, 0.22);
+  text-decoration: none;
+  color: #000000; }
