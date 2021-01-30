@@ -1,0 +1,11 @@
+@import '../../assets/styles/scss/slyles.scss';
+
+.our-company-section {
+  font-family: "Raleway", sans-serif;
+
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+}
