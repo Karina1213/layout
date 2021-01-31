@@ -15,21 +15,6 @@ export class Dropdown extends React.Component {
         }
     }
 
-    render() {
-        const {isOpen, haveFlag} = this.state;
-        const flag = !haveFlag ? Russia : haveFlag;
-
-        return (
-            <div className={isOpen ? "dropdown active" : "dropdown"}
-                 onClick={this.handleClick}>
-
-                <img src={flag}/>
-                <span className="dropdown__elem"></span>
-                {this.itemList(this.flags)}
-            </div>
-        )
-    }
-
     handleClick = () => {
         this.setState({
             isOpen: !this.state.isOpen
@@ -52,6 +37,21 @@ export class Dropdown extends React.Component {
 
         return (
             <ul className="dropdown__list"> {list} </ul>
+        )
+    }
+
+    render() {
+        const {isOpen, haveFlag} = this.state;
+        const flag = !haveFlag ? Russia : haveFlag;
+
+        return (
+            <div className={isOpen ? "dropdown active" : "dropdown"}
+                 onClick={this.handleClick}>
+
+                <img src={flag}/>
+                <span className="dropdown__elem"></span>
+                {this.itemList(this.flags)}
+            </div>
         )
     }
 
