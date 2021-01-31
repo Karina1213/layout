@@ -1,0 +1,55 @@
+@import '../../assets/styles/scss/slyles.scss';
+
+.footer {
+  padding: 45px 0px;
+  background-color: $beige;
+  margin-bottom: 20px;
+
+  &__block {
+    text-align: left;
+    margin: 0px 10px 25px 10px;
+  }
+  &__content {
+    font-size: $md-font-size;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    color: $light-gray;
+    font-family: $ralewayFont;
+    &--roboto-font{
+    font-family: $robotoFont;
+      font-weight: 300;
+    }
+  }
+  &__featured-boats{
+    flex-shrink: 0;
+  }
+  &__row {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  &__title {
+    margin-bottom: 24px;
+    font-family: $ralewayFont;
+    font-size: $lg-font-size;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  &__copyright{
+    margin-bottom: 20px;
+    font-family: $ralewayFont;
+    font-size: $sm-font-size;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &--font-black{
+    color: $black;
+  }
+}
