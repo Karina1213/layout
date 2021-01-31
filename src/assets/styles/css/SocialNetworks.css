@@ -1,0 +1,17 @@
+.social-networks {
+  display: flex; }
+  .social-networks__icon {
+    width: 21px;
+    height: 21px;
+    padding: 2px;
+    margin-right: 10px;
+    display: flex !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #3E3E3E; }
+    .social-networks__icon:hover {
+      cursor: pointer;
+      color: #AEAEAE;
+      background-color: #ffffff; }

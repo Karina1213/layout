@@ -1,0 +1,24 @@
+@import '../../assets/styles/scss/slyles.scss';
+
+.social-networks {
+  display: flex;
+
+  &__icon {
+    width: 21px;
+    height: 21px;
+    padding: 2px;
+    margin-right: 10px;
+    display: flex !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: $darkGrey;
+
+    &:hover {
+      cursor: pointer;
+      color: $light-gray;
+      background-color: #ffffff;
+    }
+  }
+}
