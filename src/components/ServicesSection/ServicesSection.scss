@@ -2,6 +2,7 @@
 
 .services-section {
   font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
 
   &__title {
     text-align: center;
@@ -14,9 +15,5 @@
     margin-right: -10px;
     box-sizing: border-box;
     margin-bottom: 40px;
-  }
-
-  &__button{
-    margin-bottom: 30px;
   }
 }
