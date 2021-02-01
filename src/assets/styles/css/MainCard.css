@@ -6,8 +6,13 @@
     min-height: 448px;
     object-fit: cover; }
   .main-card__content {
+    max-width: 751px;
     padding: 65px 30px;
     background-color: #3E3E3E;
     position: absolute;
-    top: 94px;
-    max-width: 751px; }
+    top: 2em;
+    right: 1.5em;
+    left: 0; }
+    @media only screen and (max-width: 600px) {
+      .main-card__content {
+        font-size: 14px; } }

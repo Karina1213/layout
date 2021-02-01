@@ -3,7 +3,8 @@
   .header__box {
     display: flex;
     justify-content: space-between;
-    position: relative; }
+    position: relative;
+    align-items: flex-end; }
   .header__dropdown-box {
     position: absolute;
     right: 0px;
@@ -11,7 +12,10 @@
     display: flex;
     align-items: baseline; }
   .header__navigation-box {
-    display: flex; }
-  @media only screen and (max-width: 769px) {
-    .header--display-none {
-      display: none; } }
+    display: flex;
+    margin-top: -13px; }
+  .header--display-none {
+    padding-top: 85px; }
+    @media only screen and (max-width: 769px) {
+      .header--display-none {
+        display: none; } }

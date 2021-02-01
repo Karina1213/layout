@@ -20,10 +20,10 @@ export class SearchIcon extends React.Component {
             <div className={this.state.isOpen ? 'search-box search-box--active' : "search-box"}>
                 <input className="search-box__input" type="text" name="" placeholder="Поиск"/>
 
-                <a href="#" className="search-box__button">
+                <p className="search-box__button">
                     <i onClick={this.handleClick} className='search-icon fa fa-search'
                        aria-hidden="true"> </i>
-                </a>
+                </p>
             </div>)
     }
 };

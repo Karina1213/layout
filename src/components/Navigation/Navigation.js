@@ -26,7 +26,7 @@ export const Navigation = (props) => {
         title: 'Меню'
     };
 
-    if (burgerMenu == 'true') {
+    if (burgerMenu === 'true') {
         navBar.unshift(burgerNavBar)
     }
     const classes = burgerMenu === 'true' ? 'navigation__burger' : 'navigation__link';
