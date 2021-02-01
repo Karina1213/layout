@@ -4,11 +4,13 @@ import {TopSection} from "./components/TopSection/TopSection";
 import {ServicesSection} from "./components/ServicesSection/ServicesSection";
 import {OurCompanySection} from "./components/OurCompanySection/OurCompanySection";
 import {Footer} from "./components/Footer/Footer";
+import {BurgerMenu} from "./components/BurgerMenu/BurgerMenu";
 
 function App() {
     return (
-        <div className="App">
+        <>
             <Header/>
+            <BurgerMenu/>
 
             <main>
                 <TopSection/>
@@ -17,7 +19,7 @@ function App() {
             </main>
 
             <Footer/>
-        </div>
+        </>
     );
 }
 
