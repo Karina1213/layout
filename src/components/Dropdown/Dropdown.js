@@ -30,7 +30,7 @@ export class Dropdown extends React.Component {
     itemList = props => {
         const list = props.map((item) => (
             <li>
-                <img onClick={this.handleFlag} className="dropdown__item"
+                <img alt = 'flag' onClick={this.handleFlag} className="dropdown__item"
                      key={item} src={item}/>
             </li>
         ));
@@ -48,7 +48,7 @@ export class Dropdown extends React.Component {
             <div className={isOpen ? "dropdown active" : "dropdown"}
                  onClick={this.handleClick}>
 
-                <img src={flag}/>
+                <img alt='flag' src={flag}/>
                 <span className="dropdown__elem"></span>
                 {this.itemList(this.flags)}
             </div>

@@ -18,6 +18,10 @@
     top: 1.7em;
     right: 4em;
     left: 0em;
+    @include breakpoint(768) {
+      right: 3em;
+      font-size: 12px;
+    }
   }
   &:hover{
     cursor: pointer;

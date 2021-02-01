@@ -11,10 +11,15 @@
   }
 
   &__content{
+    @include breakpoint(600) {
+      font-size: $sm-font-size;
+    }
+    max-width: 751px;
     padding: 65px 30px;
     background-color: $darkGrey;
     position: absolute;
-    top: 94px;
-    max-width: 751px;
+    top: 2em;
+    right: 1.5em;
+    left: 0;
   }
 }

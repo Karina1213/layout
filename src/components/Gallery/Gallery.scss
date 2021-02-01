@@ -1,3 +1,5 @@
+@import '../../assets/styles/scss/slyles.scss';
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -17,6 +19,9 @@
 
     &--small {
       width: 33.33%;
+      @include breakpoint(992) {
+        width: 49.95%;
+      }
     }
   }
 
@@ -25,4 +30,3 @@
     box-sizing: border-box;
   }
 }
-

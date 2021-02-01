@@ -5,10 +5,10 @@ import {Container} from "../Container/Container";
 
 
 export const Card = (props) => {
-
+    const classes = (props.id == 23) ? 'card__box--left' : 'card__box--right'
     return (
         <div className={`card`}>
-            <div className='card__box'>
+            <div className={`card__box ${classes}`}>
                 <Container>
                     <Typography mixin='card__title' xxlFontSize primary> {props.title}</Typography>
                     <Typography mixin='card__content' lgFontSize primary> {props.content}</Typography>
