@@ -19,9 +19,12 @@
 
   &__navigation-box {
     display: flex;
+    margin-top: -13px;
   }
 
   &--display-none {
+    padding-top: 85px;
+
     @include breakpoint(769) {
       display: none;
     }

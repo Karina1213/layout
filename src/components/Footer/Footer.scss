@@ -8,6 +8,19 @@
   &__block {
     text-align: left;
     margin: 0px 10px 25px 10px;
+    &--center {
+      @include breakpoint(1280) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+    }
+    &--display-none{
+      @include breakpoint(600) {
+      display: none;
+      }
+    }
   }
   &__content {
     font-size: $md-font-size;

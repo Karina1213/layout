@@ -28,14 +28,14 @@ export const Footer = () => {
                         <li className="footer__content">Металлообработка</li>
                     </ul>
 
-                    <ul className="footer__block">
+                    <ul className="footer__block footer__block--display-none">
                         <li className="footer__content">Раскрой металла</li>
                         <li className="footer__content">Конструкторское бюро</li>
                         <li className="footer__content">Аренда техники</li>
                         <li className="footer__content">Ремонт техники</li>
                     </ul>
 
-                    <ul className="footer__block">
+                    <ul className="footer__block footer__block--center">
                         <li className="footer__title">Контактная информация</li>
 
                         <li className="footer__content footer--font-black footer__content--roboto-font">Заводская улица, 2В, Буча, Киевская область, 08292</li>

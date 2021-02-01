@@ -9,6 +9,9 @@
     border-right: 1px solid rgba(62, 62, 62, 0.22);
     text-decoration: none;
     color: $black;
+    @include breakpoint(992) {
+      padding: 65px 10px 7px 10px;
+    }
   }
 
   &__burger {
