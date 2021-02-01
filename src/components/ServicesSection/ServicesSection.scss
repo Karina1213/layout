@@ -16,4 +16,13 @@
     box-sizing: border-box;
     margin-bottom: 40px;
   }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+  }
+
+  @include breakpoint(400) {
+
+  }
 }

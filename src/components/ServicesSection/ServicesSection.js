@@ -19,7 +19,9 @@ export const ServicesSection = () => {
                     <Gallery/>
                 </div>
 
-                <Button mixin='services-section__button'>Быстрый расчет цены по чертежу</Button>
+                <div className= 'services-section__button'>
+                    <Button mixin='services-section__button'>Расчет стоимости</Button>
+                </div>
             </Container>
         </section>)
 };

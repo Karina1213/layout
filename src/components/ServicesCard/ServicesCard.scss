@@ -31,8 +31,13 @@
     right: 4em;
     left: 0em;
     @include breakpoint(768) {
+      padding: 15px 100px 15px 15px;
       right: 3em;
       font-size: 12px;
+    }
+    @include breakpoint(320) {
+      padding: 15px 40px 15px 15px;
+      right: 1em;
     }
   }
   &:hover{

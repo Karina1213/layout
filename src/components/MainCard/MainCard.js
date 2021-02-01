@@ -8,7 +8,7 @@ export const MainCard = (props) => {
     return (
         <div className='main-card'>
             <Container>
-                <Typography xxlFontSize primary mixin='main-card__content' > {props.title}</Typography>
+                <Typography mixin='main-card__content' primary> {props.title}</Typography>
             </Container>
 
             <img alt={props.title} className='main-card__image' src={props.image}/>

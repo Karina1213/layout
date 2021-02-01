@@ -6,7 +6,7 @@ export const Button = (props) => {
     const mixin = props.mixin;
 
     return (
-        <a href='#' className={`button ${mixin}`} href='#'>
+        <a href='/' className={`button ${mixin}`}>
             {children}
         </a>)
 };
