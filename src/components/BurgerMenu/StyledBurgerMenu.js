@@ -64,10 +64,10 @@ export const StyledMenu = styled.nav`
   right: 0;
   transition: transform 0.3s ease-in-out;
   z-index: 100;
-  @media (max-width: 576px) {
+  @media (max-width: 767px) {
       width: 100%;
     }
-  @media (min-width:805px) {
+  @media (min-width:767px) {
       display:none;
      }
 

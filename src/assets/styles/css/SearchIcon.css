@@ -3,12 +3,21 @@
   right: 120px;
   top: 10px;
   padding-left: 15px; }
+  @media only screen and (max-width: 769px) {
+    .search-box {
+      right: 60px;
+      top: -29px; } }
   .search-box--active {
     background-color: #ffffff;
     z-index: 3;
     position: relative;
     top: 54px;
     right: 140px; }
+    @media only screen and (max-width: 769px) {
+      .search-box--active {
+        right: 60px;
+        top: -29px;
+        border: 1px solid black; } }
   .search-box__button {
     text-decoration: none;
     float: right;
@@ -35,3 +44,9 @@
 
 .search-box--active > .search-box__input {
   width: 314px; }
+  @media only screen and (max-width: 769px) {
+    .search-box--active > .search-box__input {
+      width: 214px; } }
+  @media only screen and (max-width: 450px) {
+    .search-box--active > .search-box__input {
+      width: 80px; } }

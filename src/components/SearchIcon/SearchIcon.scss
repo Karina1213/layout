@@ -7,8 +7,8 @@
   padding-left: 15px;
 
   @include breakpoint(769) {
-    top: -29px;
-    right: 59px;
+    right: 60px;
+    top: -36px;
   }
 
   &--active {
@@ -17,6 +17,12 @@
     position: relative;
     top: 54px;
     right: 140px;
+
+    @include breakpoint(769) {
+      right: 60px;
+      top: -36px;
+      border: 1px solid black;
+    }
   }
 
   &__button {
@@ -29,6 +35,7 @@
     align-items: center;
     transition: 2s;
   }
+
   &__input {
     font-family: $ralewayFont;
     border: none;
@@ -49,4 +56,12 @@
 
 .search-box--active > .search-box__input {
   width: 314px;
+
+  @include breakpoint(769) {
+    width: 214px;
+  }
+
+  @include breakpoint(450) {
+    width: 80px;
+  }
 }
