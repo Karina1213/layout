@@ -8,7 +8,7 @@
 
   @include breakpoint(769) {
     right: 60px;
-    top: -36px;
+    top: -31px;
   }
 
   &--active {
@@ -20,7 +20,7 @@
 
     @include breakpoint(769) {
       right: 60px;
-      top: -36px;
+      top: -31px;
       border: 1px solid black;
     }
   }
@@ -45,13 +45,16 @@
     font-size: 20px;
     transition: 0.4s;
     line-height: 50px;
-    width: 0;
+     width: 0;
   }
 }
 
 .fa-search {
   font-size: 24px;
   color: $black;
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 .search-box--active > .search-box__input {

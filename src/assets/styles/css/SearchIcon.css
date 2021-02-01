@@ -6,7 +6,7 @@
   @media only screen and (max-width: 769px) {
     .search-box {
       right: 60px;
-      top: -29px; } }
+      top: -31px; } }
   .search-box--active {
     background-color: #ffffff;
     z-index: 3;
@@ -16,7 +16,7 @@
     @media only screen and (max-width: 769px) {
       .search-box--active {
         right: 60px;
-        top: -29px;
+        top: -31px;
         border: 1px solid black; } }
   .search-box__button {
     text-decoration: none;
@@ -41,6 +41,8 @@
 .fa-search {
   font-size: 24px;
   color: #000000; }
+  .fa-search:hover {
+    cursor: pointer; }
 
 .search-box--active > .search-box__input {
   width: 314px; }

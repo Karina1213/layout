@@ -3,4 +3,7 @@
   .our-company-section__title {
     text-align: center;
     font-weight: 600;
-    margin-bottom: 32px; }
+    margin-bottom: 32px;
+    background: url("../../assets/images/line.png") center bottom no-repeat;
+    padding-bottom: 10px;
+    margin-bottom: 30px; }
