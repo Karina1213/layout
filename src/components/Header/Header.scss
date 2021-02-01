@@ -1,6 +1,29 @@
+@import '../../assets/styles/scss/slyles.scss';
+
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  &__dropdown-box {
+    position: absolute;
+    right: 0px;
+    padding-top: 55px;
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__navigation-box {
+    display: flex;
+  }
+
+  &--display-none {
+    @include breakpoint(769) {
+      display: none;
+    }
+  }
 }

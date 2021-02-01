@@ -13,8 +13,15 @@
     padding: 15px 132px 15px 15px;
     background-color: $darkGrey;
     position: absolute;
-    top: 32px;
     max-width: 333px;
     box-sizing: border-box;
+    top: 1.7em;
+    right: 4em;
+    left: 0em;
+  }
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.6s ease-out;
   }
 }

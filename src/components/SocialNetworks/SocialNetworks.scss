@@ -12,13 +12,13 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
+    color: $white;
     background-color: $darkGrey;
 
     &:hover {
       cursor: pointer;
       color: $light-gray;
-      background-color: #ffffff;
+      background-color: $white;
     }
   }
 }

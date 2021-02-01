@@ -6,6 +6,11 @@
   top: 10px;
   padding-left: 15px;
 
+  @include breakpoint(769) {
+    top: -29px;
+    right: 59px;
+  }
+
   &--active {
     background-color: $white;
     z-index: 3;

@@ -1,7 +1,6 @@
 @import '../../assets/styles/scss/slyles.scss';
 
 .navigation {
-
   &__link {
     font-family: $ralewayFont;
     font-weight: 500;
@@ -10,5 +9,21 @@
     border-right: 1px solid rgba(62, 62, 62, 0.22);
     text-decoration: none;
     color: $black;
+  }
+
+  &__burger {
+    font-family: $ralewayFont;
+    font-weight: 500;
+    border-right: none;
+    padding: 20px 0px;
+    color: $white;
+    line-height: 21px;
+  }
+
+  @include breakpoint(769) {
+    padding: 20px 0px;
+    border-bottom: 1px solid $yellow;
+    width: 90%;
+    margin-left: 16px;
   }
 }

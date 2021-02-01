@@ -4,7 +4,6 @@ import {Typography} from "../Typography/Typography";
 import {Container} from "../Container/Container";
 
 export const MainCard = (props) => {
-    const mixin = props.mixin;
 
     return (
         <div className='main-card'>

@@ -7,8 +7,11 @@
   right: 0px;
   padding: 10px;
   width: 80px;
+  @include breakpoint(768) {
+    display: none;
+  }
 
-  &__elem {
+    &__elem {
     cursor: pointer;
 
     &:after {

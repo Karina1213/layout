@@ -5,10 +5,9 @@ import {Container} from "../Container/Container";
 
 
 export const Card = (props) => {
-    const mixin = props.mixin;
 
     return (
-        <div className={`card ${mixin}`}>
+        <div className={`card`}>
             <div className='card__box'>
                 <Container>
                     <Typography mixin='card__title' xxlFontSize primary> {props.title}</Typography>

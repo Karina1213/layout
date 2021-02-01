@@ -3,15 +3,18 @@
 
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: 566px;
     margin: auto;
     padding: 0; } }
 @media (min-width: 768px) {
   .container {
-    max-width: 720px; } }
+    max-width: 756px; } }
 @media (min-width: 992px) {
   .container {
-    max-width: 960px; } }
-@media (min-width: 1260px) {
+    max-width: 982px; } }
+@media (min-width: 1360px) {
+  .container {
+    max-width: 1260px; } }
+@media (min-width: 1460px) {
   .container {
     max-width: 1360px; } }

@@ -4,6 +4,7 @@ import {Slider} from "../Slider/Slider";
 import {Slide} from "../Slider/Slide";
 import {sliderData} from "../../fakeJson/fakeJson";
 import {MainCard} from "../MainCard/MainCard";
+
 export const TopSection = () => {
 
     return (
